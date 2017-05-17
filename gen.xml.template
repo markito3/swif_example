@@ -1,9 +1,11 @@
 <Request>
   <Job>
+    <Name name="gen_{run}_{file}"/>
     <Track name="debug"/>
     <Project name="gluex"/>
     <OS name="centos7"/>
-    <Name name="gen_{run}_{file}"/>
+    <Memory space="1" unit="GB" />
+    <DiskSpace space="1" unit="GB" />
     <Command>/home/marki/swif_example/gen.bash {run} {file}</Command>
     <Output src="bggen_{run}_{file}.hddm"
       dest="/volatile/halld/home/marki/swif_example/bggen_{run}_{file}.hddm"/>
