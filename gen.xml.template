@@ -1,0 +1,9 @@
+<Request>
+  <Job>
+    <Track name="debug"/>
+    <Project name="gluex"/>
+    <OS name="centos7"/>
+    <Name name="gen"/>
+    <Command>/home/marki/swif_example/gen.bash {run} {file}</Command>
+  </Job>
+</Request>
