@@ -3,7 +3,6 @@ run=$1
 file=$2
 shift
 shift
-echo 1 = $1
 echo -=-start job-=-
 date
 echo run $run file $file
@@ -16,7 +15,7 @@ source /group/halld/Software/build_scripts/gluex_env_jlab.sh
 number_of_events=1000
 echo number_of_events = $number_of_events
 #
-# set flags based on run number
+# set options for bggen
 #
 echo -=-run bggen-=-
 seed=$run$file

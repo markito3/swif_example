@@ -11,7 +11,7 @@ C -- writing out events
 C        HDDM  simple  ntuple
 WROUT      1      0     0 
 
-NPRIEV   10           number of events to print
+NPRIEV   1            number of events to print
 EPHLIM   4. 12.       energy range in GeV
 
 RNDMSEQ    <random_number_seed>            random number sequence     integer values

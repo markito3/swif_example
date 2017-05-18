@@ -10,5 +10,5 @@ file[3]=6
 for i in `seq 0 3`;
 do
     echo making jsub file for i = $i, run = ${run[$i]}, file = ${file[$i]}
-    sed -e "s/{run}/${run[$i]}/" -e "s/{file}/$file/" < gen.xml.template > gen_${i}.xml
+    sed -e "s/{run}/${run[$i]}/" -e "s/{file}/${file[$i]}/" < gen.xml.template > gen_${i}.xml
 done
